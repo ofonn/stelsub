@@ -1,0 +1,226 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+  padding: 10px;
+  list-style-type: none;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.search-container {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.search-container form {
+  display: inline-block;
+}
+
+.search-container input[type="text"] {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.search-container button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.subtitle-post {
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.movie-name {
+  font-size: 24px;
+  margin: 0;
+  color: BLACK;
+}
+
+.description {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.likes,
+.downloads {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.likes .fa-heart,
+.downloads .fa-download {
+  margin-right: 5px;
+}
+
+.download-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+footer nav {
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+}
+.downloads {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.likes {
+  margin: 0 auto;
+}
+.subtitle-post {
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative; /* Added to enable z-index on children */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.download-button {
+  z-index: 1; /* Ensure the button stays on top */
+  position: relative; /* Needed for z-index to take effect */
+}
+.pages-bar {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pages-bar a {
+  margin: 0 5px;
+  padding: 10px 15px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.pages-bar a:hover {
+  background-color: #0056b3;
+}
+.subtitle-post {
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  background-color: white;
+  cursor: default; /* Change cursor to default */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+    /* Bottom right shadow with medium opacity */ -5px -5px 10px
+      rgba(0, 0, 0, 0.1); /* Top left shadow with lower opacity */
+}
+
+.download-button {
+  z-index: 1;
+  position: relative;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+.download-button i {
+  margin-left: 5px;
+}
+
+.pages-bar {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pages-bar a {
+  margin: 0 5px;
+  padding: 10px 15px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.pages-bar a:hover {
+  background-color: #0056b3;
+}
+
+footer nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+footer nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+footer nav a:hover {
+  color: #0056b3;
+}
